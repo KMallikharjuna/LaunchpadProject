@@ -1,0 +1,9 @@
+class BioData{
+     public static void main(String ma[]){
+         System.out.print("Name : Mahesh Babu");
+         System.out.print("Age  : 22");
+         System.out.print("Gender : Male");
+         System.out.print("Phone : 8558448669");
+         System.out.print("Email : maheshpokiri@gmail.com");
+     }
+}
