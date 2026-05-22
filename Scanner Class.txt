@@ -1,0 +1,33 @@
+Scanner:
+    A Scanner is pre-defined class in java.util package.
+    The Scanner class is used to accept data from the user, existing file or existing String.
+    Scanner class contains many predefined functions that automatically converts the data into a proper type.
+    Scanner raises InputMismatchException if the expected data type is mismatched.
+    
+    Predefined methods in Scanner:
+	next()		To read the first word in the given line
+        nextLine()	To read the entire line
+        nextInt()	To read an integer
+        nextBool()	To read a Boolean value
+        nextFloat()	To read a float number
+        nextDouble()	To read a double number
+        nextLong()	To read a long number
+
+Steps to use Scanner class:
+===========================
+step1 : import the Scanner class from the java.util package.
+
+	import java.util.Scanner;
+
+Step2 : create an object to use the Scanner class.
+
+	Scanner objectName = new Scanner(System.in);
+
+step3 : Use the proper methods to read the data based on the type.
+
+	int x = objectName.nextInt();
+	long y = objectName.nextLong();
+	String name = objectName.next();
+	double z = objectName.nextDouble();
+
+
